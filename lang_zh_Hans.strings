@@ -1,25 +1,26 @@
 /* This file is part of Telegram Desktop,
 the official desktop version of Telegram messaging app, see https://telegram.org
-
 Telegram Desktop is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
-
 It is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
-
 Full license: https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE
-Copyright (c) 2014 John Preston, https://desktop.telegram.org */
+Copyright (c) 2015 John Preston, https://desktop.telegram.org
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Chinese by Ali , Copyright (c) 2015 Alisummer, http://blog.alisummer.com !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
 "lng_language_name" = "简体中文";
 "lng_switch_to_this" = "切换为简体中文";
 "lng_menu_contacts" = "联系人";
 "lng_menu_settings" = "设置";
 "lng_menu_about" = "关于";
 "lng_menu_update" = "更新";
-"lng_menu_restart" = "重新开始";
+"lng_menu_restart" = "重新启动";
 "lng_menu_back" = "后退";
 "lng_open_from_tray" = "打开 Telegram";
 "lng_minimize_to_tray" = "最小化到托盘";
@@ -88,7 +89,7 @@ Copyright (c) 2014 John Preston, https://desktop.telegram.org */
 "lng_phone_ph" = "你的电话号码";
 "lng_phone_title" = "联系电话";
 "lng_phone_desc" = "请确认国家代码，并输入您的电话号码。";
-"lng_phone_notreg" = "注意：如果你没有 Telegram 帐号，请使用 [a href=\"https://telegram.org/\"]iOS / Android[/a] [b]注册[/b]或 {signup_start}here »{signup_end}";
+"lng_phone_notreg" = "注意：如果你没有 Telegram 帐号，请使用 [a href=\"https://telegram.org/\"]iOS / Android[/a] [b]注册[/b]或 {signup_start}here ”{signup_end}";
 "lng_country_code" = "国家代码";
 "lng_bad_country_code" = "无效的国家代码";
 "lng_country_ph" = "搜索";
@@ -193,7 +194,7 @@ Copyright (c) 2014 John Preston, https://desktop.telegram.org */
 "lng_download_path_default" = "默认文件夹";
 "lng_download_path_clear" = "清除所有";
 "lng_download_path_header" = "选择下载路径";
-"lng_download_path_default_radio" = "Telegram 文件夹为系统的 «Downloads»";
+"lng_download_path_default_radio" = "Telegram 文件夹为系统的Downloads”";
 "lng_download_path_temp_radio" = "临时文件夹，注销或卸载将会清空";
 "lng_download_path_dir_radio" = "自定义文件夹，只能手动清空";
 "lng_download_path_choose" = "选择下载路径";
@@ -281,7 +282,7 @@ Copyright (c) 2014 John Preston, https://desktop.telegram.org */
 "lng_settings_logout" = "注销";
 "lng_sure_logout" = "您确定要退出？";
 "lng_settings_need_restart" = "重启才能使新的设置生效，确定立即重启？";
-"lng_settings_restart_now" = "重新开始";
+"lng_settings_restart_now" = "重新启动";
 "lng_settings_restart_later" = "稍后";
 "lng_sessions_header" = "当前会话";
 "lng_sessions_other_header" = "活动的会话";
@@ -300,7 +301,7 @@ Copyright (c) 2014 John Preston, https://desktop.telegram.org */
 "lng_profile_enable_notifications" = "通知";
 "lng_profile_clear_history" = "清除历史记录";
 "lng_profile_send_message" = "发送消息";
-"lng_profile_share_contact" = "风险联系人";
+"lng_profile_share_contact" = "分享联系人";
 "lng_profile_delete_contact" = "删除";
 "lng_profile_set_group_photo" = "设置照片";
 "lng_profile_add_participant" = "添加成员";
@@ -310,13 +311,13 @@ Copyright (c) 2014 John Preston, https://desktop.telegram.org */
 "lng_profile_loading" = "载入中..";
 "lng_profile_shared_media" = "共享媒体";
 "lng_profile_no_media" = "此次交谈中没有多媒体。";
-"lng_profile_photos" = "{count:_not_used_|# 张照片|# 张照片} »";
+"lng_profile_photos" = "{count:_not_used_|# 张照片|# 张照片} ”";
 "lng_profile_photos_header" = "照片概览";
-"lng_profile_videos" = "{count:_not_used_|# 个视频文件|# 个视频文件} »";
+"lng_profile_videos" = "{count:_not_used_|# 个视频文件|# 个视频文件} ”";
 "lng_profile_videos_header" = "视频文件概览";
-"lng_profile_files" = "{count:_not_used_|# 个文件|# 个文件} »";
+"lng_profile_files" = "{count:_not_used_|# 个文件|# 个文件} ”";
 "lng_profile_files_header" = "文件概览";
-"lng_profile_audios" = "{count:_not_used_|# 条语音信息|# 条语音信息} »";
+"lng_profile_audios" = "{count:_not_used_|# 条语音信息|# 条语音信息} ”";
 "lng_profile_audios_header" = "语音信息概览";
 "lng_profile_show_all_types" = "显示所有类型";
 "lng_profile_copy_phone" = "复制手机号";
@@ -328,7 +329,7 @@ Copyright (c) 2014 John Preston, https://desktop.telegram.org */
 "lng_failed_add_participant" = "无法添加用户，请稍后再试。";
 "lng_sure_delete_contact" = "确定从联系人列表删除 {contact}？";
 "lng_sure_delete_history" = "确认删除与 {contact} 的所有信息？\n\n一旦删除不可恢复。";
-"lng_sure_delete_and_exit" = "确认删除所有的历史信息后退出 «{group}»？\n\n一旦操作不可恢复。";
+"lng_sure_delete_and_exit" = "确认删除所有的历史信息后退出”{group}”？\n\n一旦操作不可恢复。";
 "lng_message_empty" = "（空）";
 "lng_action_add_user" = "{from} 将 {user} 加入群组";
 "lng_action_kick_user" = "{from} 将 {user} 移出群组";
@@ -337,8 +338,8 @@ Copyright (c) 2014 John Preston, https://desktop.telegram.org */
 "lng_action_user_registered" = "{from} 刚刚加入 Telegram";
 "lng_action_removed_photo" = "{from} 删除了群组图片";
 "lng_action_changed_photo" = "{from} 更改了群组图片";
-"lng_action_changed_title" = "{from} 将群组名称更改为 «{title}»";
-"lng_action_created_chat" = "{from} 建立了名为 «{title}» 的群组";
+"lng_action_changed_title" = "{from} 将群组名称更改为”{title}”";
+"lng_action_created_chat" = "{from} 建立了名为”{title}”的群组";
 "lng_forwarded_from" = "转发于";
 "lng_in_reply_to" = "回复给";
 "lng_attach_failed" = "失败";
@@ -424,7 +425,7 @@ Copyright (c) 2014 John Preston, https://desktop.telegram.org */
 "lng_forward_choose" = "选择收件人..";
 "lng_forward_confirm" = "转发给 {recipient}？";
 "lng_forward_share_contact" = "将联系人分享给 {recipient}？";
-"lng_forward_send_file_confirm" = "发送 «{name}» 给 {recipient}？";
+"lng_forward_send_file_confirm" = "发送”{name}”给 {recipient}？";
 "lng_forward_send_files_confirm" = "发送所选的文件给 {recipient}？";
 "lng_forward" = "转发";
 "lng_forward_send" = "发送";
@@ -520,4 +521,3 @@ Copyright (c) 2014 John Preston, https://desktop.telegram.org */
 "lng_mac_menu_add_contact" = "添加联系人";
 "lng_mac_menu_new_group" = "创建群组";
 "lng_mac_menu_show" = "显示 Telegram";
-
